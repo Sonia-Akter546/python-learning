@@ -1,0 +1,6 @@
+num = int(input("Enter a number: "))
+ran = range(1,num+1)
+fac = 1
+for i in ran:
+    fac *= i
+print(f"Factorial = {fac}")
