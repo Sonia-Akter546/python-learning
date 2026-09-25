@@ -1,0 +1,6 @@
+num = int(input("Enter a number: "))
+ran = range(num,0,-1)
+for i in ran:
+    print(i)
+    if i == 5:
+        break
