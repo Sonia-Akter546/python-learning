@@ -1,0 +1,7 @@
+num = int(input("Enter a number: "))
+ran = range(1,num+1)
+total = 0
+for i in ran:
+    if i%2==0:
+        total = total + i
+print(f"Sum of even numbers = {total}")
