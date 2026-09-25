@@ -1,0 +1,9 @@
+num = int(input("Enter a number: "))
+'''ran = range(2,num+1,2)
+
+for i in ran:
+    print(i)'''
+ran = range(1,num+1)
+for i in ran:
+    if i%2==0:
+        print(i)
