@@ -1,0 +1,16 @@
+num = int(input("Enter a number: "))
+
+"""if num>=1:
+    print(f"{num} is Positive.")
+elif num<=-1:
+    print(f"{num} is Negative.")
+else:
+    print(f"{num} is Zero.")
+    """
+
+if num>0:
+    print(f"{num} is Positive.")
+elif num<0:
+    print(f"{num} is Negative.")
+else:
+    print(f"{num} is Zero.")
