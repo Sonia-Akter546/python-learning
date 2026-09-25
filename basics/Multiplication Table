@@ -1,0 +1,5 @@
+num = int(input("Enter a number: "))
+ran = range(1,11)
+
+for i in ran:
+    print(f"{num} x {i} = {num*i}")
